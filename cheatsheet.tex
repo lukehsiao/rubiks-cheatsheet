@@ -4,7 +4,10 @@
 \usepackage{booktabs}
 \usepackage[labelfont=bf,font=small]{caption}
 \usepackage{fontspec}
-\usepackage[hidelinks]{hyperref}
+\usepackage[pdfauthor={Luke Hsiao},
+            pdftitle={Luke's Rubik's Cheatsheet},
+            hidelinks]{hyperref}
+\usepackage{datetime2}
 
 \newcommand{\mitem}[2]{\textbf{#1} & \texttt{#2} \\}
 
@@ -13,7 +16,8 @@
 \begin{multicols}{3}
 
 \begin{center}
-     \Large{\textbf{Rubik's Cheatsheet}}
+     \Large{\textbf{Rubik's Cheatsheet}}\\
+     \scriptsize{Luke Hsiao, \today}
 \end{center}
 
 \section{Notation}
